@@ -1,0 +1,265 @@
+Group Name,Group Members,Treatment,Planaria Worm ID,segment,Day of new eye spot appearance,Day of new pharynx appearance,Days until Regeneration,New Eye spot appearance on TAIL (Y/N),New Pharynx appearance on HEAD (Y/N),Notes
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",control,1,head,,4,4,,Y,
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",control,1,tail,6,,6,Y,,
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",control,2,head,,4,4,,Y,
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",control,2,tail,6,,6,Y,,Day 7 of observation: tail ungergone a split; two planaria with pharynx (only one with eyespots).
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",control,3,head,,4,4,,Y,
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",control,3,tail,7,,7,Y,,
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",PZQ,4,head,,,,,N,Tissue disintigrated on day 2.
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",PZQ,4,tail,,,,N,,Tissue disintigrated on day 2.
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",PZQ,5,head,,,,,N,Tissue disintigrated on day 2.
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",PZQ,5,tail,,,,N,,Tissue disintigrated on day 2.
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",PZQ,6,head,,,,,N,Tissue disintigrated on day 3.
+R 21-4,"Elwen Bernard, Evy Anderson, Holden Doherty",PZQ,6,tail,,,,N,,Tissue disintigrated on day 2.
+R 21-3,"Tatyana, Max",control,1,head,,,,,N,
+R 21-3,"Tatyana, Max",control,1,tail,7,,7,Y,,"Active. Split towards posterior axis, split off tissue is responsive but contains no pharynx or eyespots."
+R 21-3,"Tatyana, Max",control,2,head,,,,,N,Found deceased on day 1. Removed from experiment.
+R 21-3,"Tatyana, Max",control,2,tail,,,,,,
+R 21-3,"Tatyana, Max",control,3,head,,,,,N,Found deceased on day 1. Removed from experiment.
+R 21-3,"Tatyana, Max",control,3,tail,7,,7,Y,,
+R 21-3,"Tatyana, Max",PZQ,4,head,,,,,,"Abnormal behavior. Abnormal anterior movements and flapping. Continuously raises anterior end towards water's surface and twists backwards and sideways, interrupting forward momentum. Auricles consistently raised higher above solid surface than other heads. Movements may be involuntary. Was accidentally left without water for one day on day 2."
+R 21-3,"Tatyana, Max",PZQ,4,tail,,,,N,,Died on day 2
+R 21-3,"Tatyana, Max",PZQ,5,head,,,,,N,Died on day 3
+R 21-3,"Tatyana, Max",PZQ,5,tail,,,,N,,Died on day 2
+R 21-3,"Tatyana, Max",PZQ,6,head,,,,,N,Died on day 2
+R 21-3,"Tatyana, Max",PZQ,6,tail,,,,N,,Died on day 3
+R 21-1 A,"Anna Clauer, John Stoehr",control,1,head,,,,,N,
+R21-1 A,"Anna Clauer, John Stoehr",control,2,head,,,,,,dead
+R21-1 A,"Anna Clauer, John Stoehr",control,3,head,,,,,,dead
+R21-1 A,"Anna Clauer, John Stoehr",control,1,tail,6,,6,Y,,"Two tails - One tail has eyespots, the other does not."
+R21-1 A,"Anna Clauer, John Stoehr",control,2,tail,,,,,,dead
+R21-1 A,"Anna Clauer, John Stoehr",control,3,tail,,,,,,dead
+R21-1 A,"Anna Clauer, John Stoehr",PZQ,4,head,,,,,N,
+R21-1 A,"Anna Clauer, John Stoehr",PZQ,5,head,,,,,N,
+R21-1 A,"Anna Clauer, John Stoehr",PZQ,6,head,,,,,,dead
+R21-1 A,"Anna Clauer, John Stoehr",PZQ,4,tail,,,,,,dead
+R21-1 A,"Anna Clauer, John Stoehr",PZQ,5,tail,,,,N,,
+R21-1 A,"Anna Clauer, John Stoehr",PZQ,6,tail,,,,,,dead
+R21-1 B,"Kahaan, Miraya",control,1,head,,,,,N,still in process of regenerating
+R21-1 B,"Kahaan, Miraya",control,2,head,,3,3,,N,
+R21-1 B,"Kahaan, Miraya",control,3,head,,3,3,,Y,
+R21-1 B,"Kahaan, Miraya",control,1,tail,3,,3,Y,,"2 tails, only 1 has eyespots"
+R21-1 B,"Kahaan, Miraya",control,2,tail,5,,5,Y,,"2 tails, both have eyespots"
+R21-1 B,"Kahaan, Miraya",control,3,tail,6,,6,Y,,"2 tails, both have eyespots"
+R21-1 B,"Kahaan, Miraya",PZQ,4,head,,,,,,died
+R21-1 B,"Kahaan, Miraya",PZQ,5,head,,,,,,died
+R21-1 B,"Kahaan, Miraya",PZQ,6,head,,,,,,died
+R21-1 B,"Kahaan, Miraya",PZQ,4,tail,,,,,,died
+R21-1 B,"Kahaan, Miraya",PZQ,5,tail,,,,,,died
+R21-1 B,"Kahaan, Miraya",PZQ,6,tail,,,,,,died
+R21-3b,"eva, niamh",control,1,head,,,,,N,
+R21-3b,"eva, niamh",control,1,tail,,,,Y,,
+R21-3b,"eva, niamh",control,2,head,,,,,,Dead
+R21-3b,"eva, niamh",control,2,tail,,,,Y,,
+R21-3b,"eva, niamh",control,3,head,,,,,,Dead
+R21-3b,"eva, niamh",control,3,tail,,,,,,Dead
+R21-3b,"eva, niamh",PZQ,4,head,,,,,N,
+R21-3b,"eva, niamh",PZQ,4,tail,,,,Y,,
+R21-3b,"eva, niamh",PZQ,5,head,,,,,,Dead
+R21-3b,"eva, niamh",PZQ,5,tail,,,,,Y,
+R21-3b,"eva, niamh",PZQ,6,head,,,,,,dead
+R21-3b,"eva, niamh",PZQ,6,tail,,,,,Y,
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",control,1,head,,6,6,,Y,
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",control,1,tail,5,,5,Y,,split into two
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",control,2,head,,6,6,,Y,
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",control,2,tail,5,,5,Y,,split into two
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",control,3,head,,4,4,,Y,
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",control,3,tail,5,,5,Y,,split into two
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",PZQ,4,head,,,,,N,disintegrated
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",PZQ,4,tail,,,,N,,disintegrated
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",PZQ,5,head,,,,,N,disintegrated
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",PZQ,5,tail,,,,N,,disintegrated
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",PZQ,6,head,,,,,N,
+R21-5,"Taylor Blair, Morgan LeMay, Connie Mangan",PZQ,6,tail,,,,N,,disintegrated
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",control,1,head,,,,,N,
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",control,1,tail,8,,8,Y,,Tail Split
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",control,2,head,,,,,N,
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",control,2,tail,8,,8,Y,,Tail split
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",control,3,head,,,,,N,
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",control,3,tail,8,,8,Y,,Tail split
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",PZQ,1,head,,,,,N,
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",PZQ,1,tail,8,,8,Y,,
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",PZQ,2,head,,,,,N,Dead Day 4
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",PZQ,2,tail,,,,N,,Dead Day 3
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",PZQ,3,head,,,,,N,Dead Day 3
+R21-2,"Maddy Brickey, Sofia Pardo, Laura Smith",PZQ,3,tail,,,,N,,Dead Day 3
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",control,1,head,,,,,N,
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",control,1,tail,3,,3,Y,,
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",control,2,head,,,,,N,
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",control,2,tail,7,,7,Y,,
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",control,3,head,,7,7,,Y,
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",control,3,tail,,4,4,Y,,
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",PZQ,1,head,,,,,,DEAD
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",PZQ,1,tail,,,,,,DEAD
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",PZQ,2,head,,,,,,DEAD
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",PZQ,2,tail,,,,,,DEAD
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",PZQ,3,head,,,,,N,
+R07-4,"Allison Jefferis, Lily Factora, Dahlia Wilson",PZQ,3,tail,,,,,,DEAD
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",control,1,head,,5,5,,Y,
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",control,4,tail,5,,5,Y,,split into 3
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",control,2,head,,,,,N,
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",control,5,tail,6,,6,Y,,split
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",control,3,head,,4,4,,Y,
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",control,6,tail,7,,7,Y,,split
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",PZQ,1,head,,,,,,dead
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",PZQ,4,tail,,,,,,dead
+RO7-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",PZQ,2,head,,,,,N,
+R07-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",PZQ,5,tail,,,,,,dead
+R07-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",PZQ,3,head,,,,,,dead
+R07-2,"Anna Spollen, Liraz Brand, Whitney Kuma-Perry",PZQ,6,tail,,,,,,dead
+R07-6,"Anie Kotha, Kate Scadden",control,1,head,,,,,N,
+R07-6,"Anie Kotha, Kate Scadden",control,1,tail,4,,4,Y,,
+R07-6,"Anie Kotha, Kate Scadden",control,2,head,,,,,N,
+R07-6,"Anie Kotha, Kate Scadden",control,2,tail,5,,5,Y,,split
+R07-6,"Anie Kotha, Kate Scadden",control,3,head,,5,5,,Y,
+R07-6,"Anie Kotha, Kate Scadden",control,3,tail,4,,4,Y,,split
+R07-6,"Anie Kotha, Kate Scadden",PZQ,1,head,,5,5,,Y,
+R07-6,"Anie Kotha, Kate Scadden",PZQ,1,tail,,,,,,dead
+R07-6,"Anie Kotha, Kate Scadden",PZQ,2,head,,,,,,dead
+R07-6,"Anie Kotha, Kate Scadden",PZQ,2,tail,,,,,,dead
+R07-6,"Anie Kotha, Kate Scadden",PZQ,3,head,,,,,,dead
+R07-6,"Anie Kotha, Kate Scadden",PZQ,3,tail,,,,,,dead
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",control,1,head,,,,,N,
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",control,1,tail,7,,7,Y,,
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",control,2,head,,,,,N,
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",control,2,tail,7,,7,Y,,split
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",control,3,head,,,,,N,
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",control,3,tail,5,,5,Y,,
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",PZQ,1,head,,,,,N,
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",PZQ,1,tail,,,,,,dead
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",PZQ,2,head,,,,,,dead
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",PZQ,2,tail,,,,,,dead
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",PZQ,3,head,,,,,N,
+R07-5,"Maria Elias, Oliver Jorden, Ethan Myer",PZQ,3,tail,,,,,,dead
+R07-6,"Orla Anderson, Sarah Darcy",control,1,head,,,,,N,
+R07-6,"Orla Anderson, Sarah Darcy",control,1,tail,6,,6,Y,,"split, ears"
+R07-6,"Orla Anderson, Sarah Darcy",control,2,head,,,,,N,
+R07-6,"Orla Anderson, Sarah Darcy",control,2,tail,6,,6,Y,,"split, ears"
+R07-6,"Orla Anderson, Sarah Darcy",control,3,head,,,,,N,
+R07-6,"Orla Anderson, Sarah Darcy",control,3,tail,5,,5,Y,,"split, ears"
+R07-6,"Orla Anderson, Sarah Darcy",PZQ,1,head,,,,,N,
+R07-6,"Orla Anderson, Sarah Darcy",PZQ,1,tail,,,,,,dead
+R07-6,"Orla Anderson, Sarah Darcy",PZQ,2,head,,,,,N,
+R07-6,"Orla Anderson, Sarah Darcy",PZQ,2,tail,,,,,,dead
+R07-6,"Orla Anderson, Sarah Darcy",PZQ,3,head,,,,,,dead
+R07-6,"Orla Anderson, Sarah Darcy",PZQ,3,tail,,,,,,dead
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,1,head,,6,6,,Y,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,1,tail,4,7,5.5,Y,Y,Split
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,2,head,,8,8,,Y,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,2,tail,,,,,,Dead
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,3,head,,,,,N,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,3,tail,4,6,5,Y,Y,Split
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,1,head,,8,8,,Y,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,1,tail,6,,6,Y,,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,2,head,,7,7,,Y,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,2,tail,,,,,,Dead
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,3,head,,8,8,,Y,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,3,tail,6,,6,Y,,Dead
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,4,head,,,,,N,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,4,tail,4,,4,Y,,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,5,head,,,,,N,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,5,tail,7,,7,Y,,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,6,head,,5,5,,Y,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",control,6,tail,4,,4,Y,,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,4,head,,,,,,Dead
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,4,tail,,,,N,,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,5,head,,,,,N,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,5,tail,,,,,,Dead
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,6,head,,,,,N,
+RO7-3,"Emm Barnes, Rowan Jeffrey, Zoe Maver, Leslie Robles",PZQ,6,tail,,,,N,,
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,1,head,,7,7,,Y,
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,1,tail,,,,N,,Split.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,2,head,,7,7,,Y,
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,2,tail,7,,7,Y,,Split.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,3,head,,,,,N,
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,3,tail,,,,N,,
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,1,head,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,1,tail,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,2,head,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,2,tail,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,3,head,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,3,tail,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,4,head,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,4,tail,6,3,4.5,Y,,Developed new eyespots and pharynx - died overtime
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,5,head,5,,5,,N,"New eyespots! Very short, however; no new tail or pharynx."
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,5,tail,8,3,5.5,Y,,Split! Moving around and new pharynx on tail
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,6,head,4,,4,,N,New eyespots but no new pharynx
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",control,6,tail,,4,4,N,,"No eyespots at all, split. but new pharynx"
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,4,head,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,4,tail,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,5,head,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,5,tail,,,,,,Dead.
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,6,head,2,,2,,N,
+R07-1,"Libby Alfieri, Ren Imbimbo, Jackson Darling, Tori Hutchinson",PZQ,6,tail,,,,N,,
+R05-2,"Caleb Howard, Isaac Walton",control,1,head,,2,2,,Y,
+R05-2,"Caleb Howard, Isaac Walton",control,1,tail,,,,N,,Split into two living planaria
+R05-2,"Caleb Howard, Isaac Walton",control,2,head,,3,3,,Y,
+R05-2,"Caleb Howard, Isaac Walton",control,2,tail,4,,4,Y,,Split into two living planaria
+R05-2,"Caleb Howard, Isaac Walton",control,3,head,,4,4,,Y,
+R05-2,"Caleb Howard, Isaac Walton",control,3,tail,6,,6,Y,,
+R05-2,"Caleb Howard, Isaac Walton",PZQ,1,head,,,,,N,
+R05-2,"Caleb Howard, Isaac Walton",PZQ,1,tail,5,,5,Y,,Died on day 5
+R05-2,"Caleb Howard, Isaac Walton",PZQ,2,head,,3,3,,Y,
+R05-2,"Caleb Howard, Isaac Walton",PZQ,2,tail,2,,2,Y,,
+R05-2,"Caleb Howard, Isaac Walton",PZQ,3,head,,6,6,,Y,
+R05-2,"Caleb Howard, Isaac Walton",PZQ,3,tail,7,,7,Y,,"Sides appeared jagged, eyes developed looking like cauliflower."
+R05-2,"Cass Biles, Joseph Tally",control,1,head,,3,3,,Y,
+R05-2,"Cass Biles, Joseph Tally",control,1,tail,6,,6,Y,,
+R05-2,"Cass Biles, Joseph Tally",control,2,head,,4,4,,Y,
+R05-2,"Cass Biles, Joseph Tally",control,2,tail,5,,5,Y,,
+R05-2,"Cass Biles, Joseph Tally",control,3,head,,6,6,,Y,
+R05-2,"Cass Biles, Joseph Tally",control,3,tail,6,,6,Y,,
+R05-2,"Cass Biles, Joseph Tally",PZQ,1,head,,,,,,Died day 2
+R05-2,"Cass Biles, Joseph Tally",PZQ,1,tail,,,,,,Died day 2
+R05-2,"Cass Biles, Joseph Tally",PZQ,2,head,,,,,N,
+R05-2,"Cass Biles, Joseph Tally",PZQ,2,tail,,,,,,Died day 2
+R05-2,"Cass Biles, Joseph Tally",PZQ,3,head,,,,,,Died day 2
+R05-2,"Cass Biles, Joseph Tally",PZQ,3,tail,,,,,,Died day 2
+R05-3,"Ella Crotty, James McKeon, Will Stallard",control,1,head,,,,,N,
+R05-3,"Ella Crotty, James McKeon, Will Stallard",control,1,tail,5,,5,Y,,"Split in 2 on day 5, second part got new eyespot on day 8"
+R05-3,"Ella Crotty, James McKeon, Will Stallard",control,2,head,,8,8,,Y,
+R05-3,"Ella Crotty, James McKeon, Will Stallard",control,2,tail,5,,5,Y,,Split in 2 on day 7
+R05-3,"Ella Crotty, James McKeon, Will Stallard",control,3,head,,4,4,,Y,
+R05-3,"Ella Crotty, James McKeon, Will Stallard",control,3,tail,5,,5,Y,,"Split in 2 on day 5, second part still has no eyes"
+R05-3,"Ella Crotty, James McKeon, Will Stallard",PZQ,4,head,,,,,,Died day 4
+R05-3,"Ella Crotty, James McKeon, Will Stallard",PZQ,4,tail,7,,7,Y,,
+R05-3,"Ella Crotty, James McKeon, Will Stallard",PZQ,5,head,,,,,,Died day 3
+R05-3,"Ella Crotty, James McKeon, Will Stallard",PZQ,5,tail,,,,,,Died day 3
+R05-3,"Ella Crotty, James McKeon, Will Stallard",PZQ,6,head,,,,,N,
+R05-3,"Ella Crotty, James McKeon, Will Stallard",PZQ,6,tail,8,,8,N,,
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",control,1,head,,,,,,deceased
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",control,1,tail,7,,7,Y,,two tails larger half has eyespots
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",control,2,head,,,,,N,
+R05-5,"Charlotte Barkan, Kara Cerveny, Greta Glover, Katie Reichard",control,2,tail,6,,6,Y,,two tails larger half has eyespots
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",control,3,head,,6,6,,Y,
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",control,3,tail,6,,6,Y,,
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",PZQ,1,head,,5,5,,Y,
+R05-5,"Charlotte Barkan, Kara Cerveny, Greta Glover, Katie Reichard",PZQ,1,tail,5,,5,Y,,two tails larger has eyespots
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",PZQ,2,head,,,,,,deceased
+R05-5,"Charlotte Barkan, Kara Cerveny, Greta Glover, Katie Reichard",PZQ,2,tail,5,,5,Y,,"3, 2 of them have eyespots"
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",PZQ,3,head,,,,,,possibly escaped into PZQ tail 2?
+R05-5,"Quinn Hargrove, Hannah Raven-Fish, Brianna Gutierrez",PZQ,3,tail,6,,6,Y,,"two tails, both have eyespots"
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",control,1,head,,,,,N,Dead because it escaped. Seems to have died before growing.
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",control,1,tail,3,,3,Y,,Unsure which day pharynx appeared
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",control,2,head,,8,8,,Y,Unsure which days eye spots appeared
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",control,2,tail,3,,3,Y,,Unsure which day pharynx appeared
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",control,3,head,,8,8,,Y,Split into 2. Head and tail for one but just tail on the other.
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",control,3,tail,8,,8,Y,,Split into 2. Head and tail for both.
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",PZQ,1,head,,8,8,,Y,Unsure which day eye spots appeared
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",PZQ,1,tail,,,,N,,Unsure which days eye spots and pharynx appeared
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",PZQ,2,head,,8,8,,Y,Unsure which days eye spots and pharynx appeared
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",PZQ,2,tail,,,,N,,Dissintigrated
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",PZQ,3,head,,8,8,,Y,Unsure which days eye spots and pharynx appeared
+R05-4,"Quintilian Hardisty, Charlotte Howell, Kaela Kaposi, Nellie Radtke",PZQ,3,tail,,,,N,,Just a tail but seems to be dead
+R05-1,"Dylan O'Catherine, Milo Martinez",control,1,head,,3,3,,Y,
+R05-1,"Dylan O'Catherine, Milo Martinez",control,1,tail,7,,7,Y,,Split into two living planaria
+R05-1,"Dylan O'Catherine, Milo Martinez",control,2,head,,3,3,,Y,
+R05-1,"Dylan O'Catherine, Milo Martinez",control,2,tail,4,,4,Y,,
+R05-1,"Dylan O'Catherine, Milo Martinez",control,3,head,,,,,N,
+R05-1,"Dylan O'Catherine, Milo Martinez",control,3,tail,5,,5,Y,,
+R05-1,"Dylan O'Catherine, Milo Martinez",PZQ,1,head,,,,,N,Only Planaria to survive but no Pharynx
+R05-1,"Dylan O'Catherine, Milo Martinez",PZQ,1,tail,,,,,,dead
+R05-1,"Dylan O'Catherine, Milo Martinez",PZQ,2,head,,,,,,dead
+R05-1,"Dylan O'Catherine, Milo Martinez",PZQ,2,tail,,,,,,dead
+R05-1,"Dylan O'Catherine, Milo Martinez",PZQ,3,head,,,,,,dead
+R05-1,"Dylan O'Catherine, Milo Martinez",PZQ,3,tail,,,,,,dead

@@ -1,6 +1,6 @@
 ---
 title: "Planaria Regeneration and Patterning Lab Write-up"
-subtitle: "Introduction to Stem Cells and Planaria"
+subtitle: "Introduction to Stem Cells and Planaria Lab"
 author:
   - Taylor Blair^[Reed College, tblair@reed.edu]
   - Morgan LeMay^[Reed College, mlemay@reed.edu]
@@ -19,8 +19,8 @@ header-includes:
 - \usepackage{sectsty} \sectionfont{\centering}
 - \usepackage{float} \floatplacement{figure}{H}
 
-abstract: "Planaria (Genus Phylum) is a remarkable invertabrate that has the ability to regenerate within a few days of being halved. Planaria are of key interest to biologists because their signaling pathways is highly similar to humans. The process by which the Planaria are able to split and recreate vital appendages is hypothesized to be linked to calcium homeostasis. This lab exposes Planaria to PZQ (Praziquantel) to further understand the planaria's re-formation process."
-thanks: Additionally the authors are grateful to Katie Reichard for being our shepard. 
+abstract: "Planaria (Genus Phylum) is a remarkable invertabrate that has the ability to regenerate within a few days of being halved. Planaria are of key interest to biologists because their signaling pathways involved in development is highly similar to humans. The process by which the Planaria are able to split and recreate vital appendages is hypothesized to be linked to calcium homeostasis. This lab exposes Planaria to PZQ (Praziquantel) to further understand the planaria's re-formation process."
+thanks: The authors are grateful to Katie Reichard for being our shepard. 
 ---
 
 
@@ -30,53 +30,163 @@ thanks: Additionally the authors are grateful to Katie Reichard for being our sh
 knitr::opts_chunk$set(echo = F, warning = FALSE, message = FALSE)
 library(tidyverse)
 library(kableExtra)
+set.seed(1234)
 ```
 
+# Introduction
+
+This Lab investigated the link between PZQ and regeneration in 
+
+## Planria
 
 
-# Data
+Planaria have been used in many research settings with studies ranging from drug tolerance studies (@raffa2001cocaine), memory transfer (@hartry1964planaria), and ... They have been most notably studied for their neoblast system which is ....
 
-Data collected for the lab
+## PZQ (Praziquantel)
+
+Praziquantel, often shortened to PZQ, is a drug created by GSK and Pfizer... It is most notably used as an antiparasitic drug discovered in (@wikipediaPlanaria).
+
+Although not directly related to this lab, there is a body of research investigating parasites slowly evolving to become drug resistant to PZQ. In a 2016 study by a group of researchers from Portugal studying Schistosomiasis, a parasitic disease that kills 280,000 annually, investigated the difference of resistant parasites versus non resistant parasites. What they obsereved was a morphological difference between the two groups (@pinto2016morphological).
+
+## Lab Setup
+
+The Planaria were provided by the Reed Biology Department. Planaria were  This lab used a dissection microscope to aid in 
+
+
+## Data
+
+Data was collected in this lab on a daily basis from February 3rd to Feburuary 10th (see @ref(tab:watch-schedule) for the watch schedule). Observations were performed using a dissection microscope (See figure)
 
 ```{r}
 
 watch_schedule <- read_csv("https://docs.google.com/spreadsheets/d/1Xwmnsy9RjIsFgfj2WjAcA4h1AzYWQaRr06DwQG8A9mI/gviz/tq?tqx=out:csv&sheet=watch-schedule")
 
 
-week_one <- read_csv("https://docs.google.com/spreadsheets/d/1Xwmnsy9RjIsFgfj2WjAcA4h1AzYWQaRr06DwQG8A9mI/gviz/tq?tqx=out:csv&sheet=data-collection")
+group_data <- read_csv("https://docs.google.com/spreadsheets/d/1Xwmnsy9RjIsFgfj2WjAcA4h1AzYWQaRr06DwQG8A9mI/gviz/tq?tqx=out:csv&sheet=data-collection")
+
+
+class_data <- read_csv("https://docs.google.com/spreadsheets/d/1bE73dti6HzgLeVEIPzy5Nlw1Jk8apOKO4sbrcLtrTMs/gviz/tq?tqx=out:csv&sheet=B21-(Katie)") %>%
+  tail(-2) %>%
+  mutate(segment = tolower(segment),
+         Treatment = tolower(Treatment))
+
+class_data["New Pharynx appearance on HEAD (Y/N)"][is.na(class_data["New Pharynx appearance on HEAD (Y/N)"])] <- "N"
+class_data["New Eye spot appearance on TAIL (Y/N)"][is.na(class_data["New Eye spot appearance on TAIL (Y/N)"])] <- "N"
 
 
 
-week_one %>%
-  head(12) %>% 
-  kable()
+class_data <- class_data %>%
+  unite(regrowth, c(`New Eye spot appearance on TAIL (Y/N)`, `New Pharynx appearance on HEAD (Y/N)`)) %>%
+  mutate(`New Eye spot appearance on TAIL (Y/N)` = class_data$`New Eye spot appearance on TAIL (Y/N)`,
+         `New Pharynx appearance on HEAD (Y/N)` = class_data$`New Pharynx appearance on HEAD (Y/N)`)
+
+class_data$regrowth[grep("Y", class_data$regrowth)] <- TRUE
+class_data$regrowth[grep("N", class_data$regrowth)] <- F
+
+
+
+PZQ_data <- class_data %>%
+  filter(Treatment == "PZQ")
+
+control_data <- class_data %>%
+  filter(Treatment == "control")
+
+heads_data <- class_data %>%
+  filter(segment == "head")
+
+tails_data <- class_data %>%
+  filter(segment == "tail")
+
+
+
 ```
+
+
+
+# Analysis
+
+After collecting the data the authors of this paper aggregated their data with other members of their lab group
+
+
+## Research Questions
+
+The authors considered a number of potential research questions including:
+
+## Stastics
+
+
+*Note: The threshold of significance used in this lab is $p < 0.05$*
+ 
+>Statistical summary statements: At least two statistics summary statements that showcase the results from your (i) ANOVA or two-way ANOVA and (ii) chi-squared contingency analysis. See Bio Binder H-10 and H-12 for instructions and examples on how to write a summary statement, in addition to the relevant sections for ANOVA and chi-squared analyses for relevant numbers to report. 
+
+
+### PZQ impact on regrowth
+
+```{r}
+
+table(tolower(heads_data$Treatment), heads_data$`New Pharynx appearance on HEAD (Y/N)`)
+
+
+chisq.test(tolower(heads_data$Treatment), heads_data$`New Pharynx appearance on HEAD (Y/N)`)
+
+
+```
+
+
+```{r}
+table(tolower(tails_data$Treatment), tails_data$`New Eye spot appearance on TAIL (Y/N)`)
+
+
+chisq.test(tolower(tails_data$Treatment), tails_data$`New Eye spot appearance on TAIL (Y/N)`)
+```
+
+```{r}
+
+class_data %>%
+  ggplot(aes(x=Treatment, fill = regrowth)) +
+  geom_bar() +
+  facet_wrap(~segment) +
+  labs(title = "Regrowth by treatmant and segment")
+
+```
+
+
+
+### Days before regrowth
+
+
+```{r}
+
+```
+
+
 
 # Figures
 
-> Figure and Figure legend: Multi-panel figure that includes at least two plots of the data. The best figures will also include images of control and experimental planaria. Label the graph(s) and images sequentially with letters (ie: Panel A, Panel B). 
+Below are the images taken during the course of the lab in addition to several guiding figures to aid the reader in understanding the anatomy of this lab.
 
-
-## Setup
-
-This lab used a dissection microscope....
-
-
-![Morgan looking through the dissction microscope](Images/Morgan_microscope.jpg){width=70%}
 
 ### Planaria
 
-The Planaria are recognizable because....
+Planaria are recognizable because....
 
 ![Planaria under a dissection microscope](Images/Planaria.jpg){width=90%}
 
-The have two distinct components in the above
+The have two distinct body components:
+
+1. The eyes
+2. The phayrnx
+
+
 
 ### Splitting
 
-Splitting 
+To prepare the planaria for the lab... This process 
 
-![Splitting a planaria with a slide cover](Images/Splitting.jpg){width=80%}
+
+![Morgan looking through the dissction microscope](Images/Morgan_microscope.jpg){width=40%} 
+
+![Splitting a planaria with a slide cover](Images/Splitting.jpg){width=40%}
 
 
 ![A split planaria with a head (top) and tail (bottom) segment](Images/split_planaria.jpg){width=90%}
@@ -89,35 +199,36 @@ Over time.... PICTURES OF REGENERATING
 
 Below are sever elements from the lab...
 
+### Reforming Tail
 
-# Observations
+![A regenerating tail segment on day 4](Images/Regrowing_tail_day_4.jpeg){width=80%}
 
-Observations were performed on the following schedule:
+As can be seen above, the tail segments...
 
-```{r}
-watch_schedule %>%
-  kable()
-```
+### Reforming Head
 
-
-
-# Analysis
+![A regenerating head segment on day 4](Images/Regrowing_head_day_4.jpeg){width=80%}
 
 
-## Stastics
+### Disintegration
 
- 
-Statistical summary statements: At least two statistics summary statements that showcase the results from your (i) ANOVA or two-way ANOVA and (ii) chi-squared contingency analysis. See Bio Binder H-10 and H-12 for instructions and examples on how to write a summary statement, in addition to the relevant sections for ANOVA and chi-squared analyses for relevant numbers to report. 
- 
+Of our six Planaria segments that received a PZQ treatment all but one disintegrated. 
+
+![A disintegrated Planria from the PZQ](Images/Disentigrated.jpg)
+
 
 
 
 \newpage
 
-# Misc
+# Miscellaneous
 
-Non write up section
 
+This chapter includes subsections that did not fit in the above
+
+## Qualatative Summary
+
+From our groups data only one of 
 
 ## Author Contributions
 
@@ -125,6 +236,15 @@ Non write up section
 
 
 All authors contributed equally to this project
+
+The checking schedule was divided accordingly:
+
+```{r watch-schedule}
+watch_schedule %>%
+  select(-`Checked (Y/N)`) %>%
+  kable(caption = "Watch Schedule")
+```
+
 
 ## Grading
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.1.30)  3 FEB 2022 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.1.30)  10 FEB 2022 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,7 +334,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count284
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 67.
+Package hyperref Info: Option `colorlinks' set `true' on input line 66.
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
@@ -433,7 +433,11 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen180
 \Gin@req@width=\dimen181
-) (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+)
+\cslhangindent=\skip63
+\csllabelwidth=\skip64
+\cslentryspacingunit=\skip65
+(C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 
@@ -453,9 +457,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box62
 ) (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip63
+\multirow@colwidth=\skip66
 \multirow@cntb=\count301
-\multirow@dima=\skip64
+\multirow@dima=\skip67
 \bigstrutjot=\dimen182
 ) (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen183
@@ -467,7 +471,7 @@ Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks32
-\minrowclearance=\skip65
+\minrowclearance=\skip68
 )
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -505,7 +509,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@arstrutbox=\box66
 \tabu@hleads=\box67
 \tabu@vleads=\box68
-\tabu@cellskip=\skip66
+\tabu@cellskip=\skip69
 )
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepar
 ttable.sty
@@ -522,11 +526,11 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip67
+\TPTL@width=\skip70
 ) (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box70
 \UL@hyphenbox=\box71
-\UL@skip=\skip68
+\UL@skip=\skip71
 \UL@hook=\toks35
 \UL@height=\dimen196
 \UL@pe=\count310
@@ -576,36 +580,36 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 ) (R_Blair_LeMay_Mangan_Planaria.aux)
 \openout1 = `R_Blair_LeMay_Mangan_Planaria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Info: Redefining \microtypecontext on input line 128.
-Package microtype Info: Applying patch `item' on input line 128.
-Package microtype Info: Applying patch `toc' on input line 128.
-Package microtype Info: Applying patch `eqnum' on input line 128.
-Package microtype Info: Applying patch `footnote' on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Info: Redefining \microtypecontext on input line 150.
+Package microtype Info: Applying patch `item' on input line 150.
+Package microtype Info: Applying patch `toc' on input line 150.
+Package microtype Info: Applying patch `eqnum' on input line 150.
+Package microtype Info: Applying patch `footnote' on input line 150.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 128.
+LaTeX Info: Redefining \showhyphens on input line 150.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -645,7 +649,7 @@ G,.JBIG2,.JB2,.eps]
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 128.
+Package hyperref Info: Link coloring ON on input line 150.
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -657,9 +661,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 128.
-LaTeX Info: Redefining \pageref on input line 128.
-LaTeX Info: Redefining \nameref on input line 128.
+LaTeX Info: Redefining \ref on input line 150.
+LaTeX Info: Redefining \pageref on input line 150.
+LaTeX Info: Redefining \nameref on input line 150.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -695,39 +699,39 @@ LaTeX Info: Redefining \nameref on input line 128.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-30.
+52.
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-30.
+52.
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-130.
+152.
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-130.
+152.
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 130.
+(Font)              <17.28> on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 130.
+(Font)              <12> on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 130.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 130
+(Font)              <10> on input line 152.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 152
 .
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 130
+LaTeX Font Info:    Trying to load font information for U+msb on input line 152
 .
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -735,19 +739,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-30.
+52.
 (C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 130.
+(Font)              <8> on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 130.
+(Font)              <6> on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 130.
+(Font)              <5> on input line 152.
 (R_Blair_LeMay_Mangan_Planaria.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `R_Blair_LeMay_Mangan_Planaria.toc'.
@@ -755,78 +759,156 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {C:/Users/tbogo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<Images/Morgan_microscope.jpg, id=54, 3083.52pt x 4095.3pt>
-File: Images/Morgan_microscope.jpg Graphic file (type jpg)
-<use Images/Morgan_microscope.jpg>
-Package pdftex.def Info: Images/Morgan_microscope.jpg  used on input line 199.
-(pdftex.def)             Requested size: 328.79005pt x 436.6743pt.
-[2]
-<Images/Planaria.jpg, id=62, 2969.0925pt x 2969.0925pt>
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+42.
+(C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2]
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+255.
+(C:\Users\tbogo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmtt.fd
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 255--255
+[]\T1/lmtt/m/n/10 ## data:  tolower(heads_data$Treatment) and heads_data$\TS1/l
+mtt/m/n/10 `\T1/lmtt/m/n/10 New Pharynx appearance on HEAD (Y/N)\TS1/lmtt/m/n/1
+0 `[] 
+ []
+
+
+Overfull \hbox (23.74355pt too wide) in paragraph at lines 270--270
+[]\T1/lmtt/m/n/10 ## data:  tolower(tails_data$Treatment) and tails_data$\TS1/l
+mtt/m/n/10 `\T1/lmtt/m/n/10 New Eye spot appearance on TAIL (Y/N)\TS1/lmtt/m/n/
+10 `[] 
+ []
+
+<R_Blair_LeMay_Mangan_Planaria_files/figure-latex/unnamed-chunk-4-1.pdf, id=89,
+ 469.755pt x 325.215pt>
+File: R_Blair_LeMay_Mangan_Planaria_files/figure-latex/unnamed-chunk-4-1.pdf Gr
+aphic file (type pdf)
+<use R_Blair_LeMay_Mangan_Planaria_files/figure-latex/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: R_Blair_LeMay_Mangan_Planaria_files/figure-latex/unnam
+ed-chunk-4-1.pdf  used on input line 272.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Images/Planaria.jpg, id=90, 2969.0925pt x 2969.0925pt>
 File: Images/Planaria.jpg Graphic file (type jpg)
 <use Images/Planaria.jpg>
-Package pdftex.def Info: Images/Planaria.jpg  used on input line 210.
+Package pdftex.def Info: Images/Planaria.jpg  used on input line 291.
 (pdftex.def)             Requested size: 422.73764pt x 422.73764pt.
-[3
+[3 <./R_Blair_LeMay_Mangan_Planaria_files/figure-latex/unnamed-chunk-4-1.pdf>]
+<Images/Morgan_microscope.jpg, id=104, 3083.52pt x 4095.3pt>
+File: Images/Morgan_microscope.jpg Graphic file (type jpg)
+<use Images/Morgan_microscope.jpg>
+Package pdftex.def Info: Images/Morgan_microscope.jpg  used on input line 313.
+(pdftex.def)             Requested size: 187.8733pt x 249.51924pt.
+[4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
-       <./Images/Morgan_microscope.jpg>]
-<Images/Splitting.jpg, id=69, 4095.3pt x 3083.52pt>
+l.316 
+       <./Images/Planaria.jpg>]
+<Images/Splitting.jpg, id=113, 4095.3pt x 3083.52pt>
 File: Images/Splitting.jpg Graphic file (type jpg)
 <use Images/Splitting.jpg>
-Package pdftex.def Info: Images/Splitting.jpg  used on input line 223.
-(pdftex.def)             Requested size: 375.74736pt x 282.91565pt.
-[4
+Package pdftex.def Info: Images/Splitting.jpg  used on input line 319.
+(pdftex.def)             Requested size: 187.84242pt x 141.4343pt.
+<Images/split_planaria.jpg, id=114, 2810.5pt x 2810.5pt>
+File: Images/split_planaria.jpg Graphic file (type jpg)
+<use Images/split_planaria.jpg>
+Package pdftex.def Info: Images/split_planaria.jpg  used on input line 325.
+(pdftex.def)             Requested size: 422.75758pt x 422.75758pt.
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.226 
-       <./Images/Planaria.jpg>]
-<Images/split_planaria.jpg, id=76, 2810.5pt x 2810.5pt>
-File: Images/split_planaria.jpg Graphic file (type jpg)
-<use Images/split_planaria.jpg>
-Package pdftex.def Info: Images/split_planaria.jpg  used on input line 229.
-(pdftex.def)             Requested size: 422.75758pt x 422.75758pt.
-[5
+l.328 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.232 
-       <./Images/Splitting.jpg>] [6
+l.328 
+       <./Images/Morgan_microscope.jpg> <./Images/Splitting.jpg>]
+<Images/Regrowing_tail_day_4.jpeg, id=121, 1951.29pt x 2591.6825pt>
+File: Images/Regrowing_tail_day_4.jpeg Graphic file (type jpg)
+<use Images/Regrowing_tail_day_4.jpeg>
+Package pdftex.def Info: Images/Regrowing_tail_day_4.jpeg  used on input line 3
+41.
+(pdftex.def)             Requested size: 375.7808pt x 499.10805pt.
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.268 \section{Analysis}\label{analysis}}
-                                          <./Images/split_planaria.jpg>] [7] [8
-] [9] (R_Blair_LeMay_Mangan_Planaria.aux) ) 
+l.344 
+       <./Images/split_planaria.jpg>]
+<Images/Regrowing_head_day_4.jpeg, id=129, 1951.29pt x 2591.6825pt>
+File: Images/Regrowing_head_day_4.jpeg Graphic file (type jpg)
+<use Images/Regrowing_head_day_4.jpeg>
+Package pdftex.def Info: Images/Regrowing_head_day_4.jpeg  used on input line 3
+52.
+(pdftex.def)             Requested size: 375.7808pt x 499.10805pt.
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.355 
+       <./Images/Regrowing_tail_day_4.jpeg>]
+<Images/Disentigrated.jpg, id=137, 3083.52pt x 3083.52pt>
+File: Images/Disentigrated.jpg Graphic file (type jpg)
+<use Images/Disentigrated.jpg>
+Package pdftex.def Info: Images/Disentigrated.jpg  used on input line 364.
+(pdftex.def)             Requested size: 469.75385pt x 469.75385pt.
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.367 
+       <./Images/Regrowing_head_day_4.jpeg>] [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.368 \newpage
+               <./Images/Disentigrated.jpg>] [10
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.440 \newpage
+              ] [11] (R_Blair_LeMay_Mangan_Planaria.aux) ) 
 Here is how much of TeX's memory you used:
- 16865 strings out of 478593
- 275296 string characters out of 2844604
- 642364 words of memory out of 3000000
- 34569 multiletter control sequences out of 15000+600000
- 535782 words of font info for 126 fonts, out of 8000000 for 9000
+ 17069 strings out of 478593
+ 279137 string characters out of 2844604
+ 647961 words of memory out of 3000000
+ 34704 multiletter control sequences out of 15000+600000
+ 541681 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,77p,1028b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/tbogo/AppData/Local/Progra
-ms/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tbogo/AppData/Local/Programs/M
-iKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/tbogo/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/lm/lmr10.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmr12.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/lm/lmr17.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmr6.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmr8.pfb><C:/Users/tbogo/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/lm/lmr9.pfb>
-Output written on R_Blair_LeMay_Mangan_Planaria.pdf (9 pages, 4854427 bytes).
+ 74i,12n,77p,1028b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/tbogo/AppDa
+ta/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/tbogo/AppData/
+Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tbogo/AppData/Loca
+l/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tbogo/AppData/Local/Pr
+ograms/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/tbogo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tbogo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tbogo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/tbogo/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tbogo/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tbogo/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tbogo/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/tbogo/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/tbogo/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tbogo/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/tbogo/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/tbogo/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on R_Blair_LeMay_Mangan_Planaria.pdf (11 pages, 8018404 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 43149 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 45289 words of extra memory for PDF output out of 51595 (max. 10000000)
 

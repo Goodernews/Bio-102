@@ -1,0 +1,178 @@
+---
+title: "Planaria Regeneration and Patterning Lab Write-up"
+subtitle: "Introduction to Stem Cells and Planaria Lab"
+author:
+  - Taylor Blair^[Reed College, tblair@reed.edu]
+  - Morgan LeMay^[Reed College, mlemay@reed.edu]
+  - Connie Mangan^[Reed College, manganft@reed.edu]
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+lang: en-US
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+urlcolor: blue
+bibliography: "../bibliography.bib"
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{float} \floatplacement{figure}{H}
+
+abstract: "Planaria (Genus Phylum) is a remarkable invertabrate that has the ability to regenerate within a few days of being halved. Planaria are of key interest to biologists because their signaling pathways involved in development is highly similar to humans. The process by which the Planaria are able to split and recreate vital appendages is hypothesized to be linked to calcium homeostasis. This lab exposes Planaria to PZQ (Praziquantel) to further understand the planaria's re-formation process. The authors of this lab report were interested in exploring the impact of PZQ on wheter or not the Planaria regrew in addition to the period of time it took to reform."
+thanks: The authors are grateful to Katie Reichard for being our shepard. 
+---
+
+
+\newpage
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(kableExtra)
+library(hablar)
+set.seed(1234)
+
+
+
+watch_schedule <- read_csv("https://docs.google.com/spreadsheets/d/1Xwmnsy9RjIsFgfj2WjAcA4h1AzYWQaRr06DwQG8A9mI/gviz/tq?tqx=out:csv&sheet=watch-schedule")
+
+
+#group_data <- read_csv("https://docs.google.com/spreadsheets/d/1Xwmnsy9RjIsFgfj2WjAcA4h1AzYWQaRr06DwQG8A9mI/gviz/tq?tqx=out:csv&sheet=data-collection")
+
+
+class_data <- read_csv("Lab 2/R_ClassPlanariaData_S22.csv") %>%
+  mutate(segment = tolower(segment),
+         Treatment = tolower(Treatment))
+
+class_data["New Pharynx appearance on HEAD (Y/N)"][is.na(class_data["New Pharynx appearance on HEAD (Y/N)"])] <- "N"
+class_data["New Eye spot appearance on TAIL (Y/N)"][is.na(class_data["New Eye spot appearance on TAIL (Y/N)"])] <- "N"
+
+
+
+class_data <- class_data %>%
+  unite(regrowth, c(`New Eye spot appearance on TAIL (Y/N)`, `New Pharynx appearance on HEAD (Y/N)`)) %>%
+  mutate(`New Eye spot appearance on TAIL (Y/N)` = class_data$`New Eye spot appearance on TAIL (Y/N)`,
+         `New Pharynx appearance on HEAD (Y/N)` = class_data$`New Pharynx appearance on HEAD (Y/N)`) %>%
+  mutate(day_growth = pmax(if_na(class_data$`Day of new pharynx appearance`, 0), if_na(class_data$`Day of new eye spot appearance`, 0)), 
+         day_growth = ifelse(day_growth==0, NA, day_growth))
+
+class_data$regrowth[grep("Y", class_data$regrowth)] <- TRUE
+class_data$regrowth[grep("N", class_data$regrowth)] <- F
+
+
+PZQ_data <- class_data %>%
+  filter(Treatment == "PZQ")
+
+control_data <- class_data %>%
+  filter(Treatment == "control")
+
+heads_data <- class_data %>%
+  filter(segment == "head")
+
+tails_data <- class_data %>%
+  filter(segment == "tail")
+
+```
+
+
+
+
+# Analysis
+
+The authors were interested in exploring the impact of 
+
+## PZQ Impact on Regrowth
+
+The null hypothesis for this section is the proportion of PZQ treated segments will regrow the same proportion as those in the control treatment. 
+
+```{r}
+table(tolower(heads_data$Treatment), heads_data$`New Pharynx appearance on HEAD (Y/N)`)
+
+chi_heads <- chisq.test(tolower(heads_data$Treatment), heads_data$`New Pharynx appearance on HEAD (Y/N)`)
+
+
+```
+
+Head segments exposed to PZQ ($\frac{10}{66}$) are stastically significantly less likely to regrow than the control treatment ($\frac{29}{66}$) ($\chi^2$, $X^2=$ `r chi_heads$statistic`, $df=1$ $p=$ `r chi_heads$p.value`)
+
+```{r}
+table(tolower(tails_data$Treatment), tails_data$`New Eye spot appearance on TAIL (Y/N)`)
+
+
+chi_tail <-chisq.test(tolower(tails_data$Treatment), tails_data$`New Eye spot appearance on TAIL (Y/N)`)
+```
+
+
+Tail segments exposed to PZQ ($\frac{11}{66}$) are stastically significantly less likely to regrow than the control treatment ($\frac{57}{66}$) ($\chi^2$, $X^2=$ `r chi_tail$statistic`, $df=1$,  $p=$ `r chi_tail$p.value`)
+
+
+```{r}
+
+class_data %>%
+  ggplot(aes(x=Treatment, fill = regrowth)) +
+  geom_bar() +
+  facet_wrap(~segment) +
+  labs(title = "Regrowth by treatment and segment")
+
+```
+
+
+
+## ANOVA Test
+
+The null hypothesis $p_{0}$ 
+
+```{r}
+
+class_data %>%
+  ggplot(aes(x=Treatment, y = day_growth)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.15) +
+  facet_wrap(~segment) +
+  labs(title = "Days before Regrowing", y = "Day first observed")
+  
+```
+
+The mean number of days before regrowing a phayrnx/eye in the PZQ treatmant (`r mean(class_data$day_growth[class_data$Treatment=="pzq"], na.rm=T)`) is not statistically significantly longer than the control group (`r mean(class_data$day_growth[class_data$Treatment=="control"], na.rm=T)`). (Two-Way ANOVA, $F=2.0684$, $df=1$, $p=0.1064$) 
+
+# Figures
+
+IN HERE!!!!
+
+
+
+
+
+# Author Contributions
+
+> Contribution statement: See contribution statement guidelines and write who did what- Bio Binder T-10; Section U for a good example, Section V for a bad example.
+
+
+All authors contributed equally to this project
+
+The checking schedule was divided accordingly:
+
+```{r}
+
+watch_schedule %>%
+  select(-`Checked (Y/N)`) %>%
+  kable(caption = "Watch Schedule") %>%
+  kable_styling(latex_options = "HOLD_position")
+
+```
+
+
+# Grading
+
+## Table
+
+| **Component** | **Excellent** |	**Good**	| **Satisfactory**	| **Incomplete/Needs Work** | 
+|---------------|---------------|-----------|-------------------|---------------------------|
+|Report organization |          |           |                   |                           |
+|Report organization |          |           |                   |                           |
+
+## Other Comments
+
+
+
