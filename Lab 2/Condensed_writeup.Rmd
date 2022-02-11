@@ -19,7 +19,7 @@ header-includes:
 - \usepackage{sectsty} \sectionfont{\centering}
 - \usepackage{float} \floatplacement{figure}{H}
 
-abstract: "Planaria (Genus Phylum) is a remarkable invertabrate that has the ability to regenerate within a few days of being halved. Planaria are of key interest to biologists because their signaling pathways involved in development is highly similar to humans. The process by which the Planaria are able to split and recreate vital appendages is hypothesized to be linked to calcium homeostasis. This lab exposes Planaria to PZQ (Praziquantel) to further understand the planaria's re-formation process. The authors of this lab report were interested in exploring the impact of PZQ on wheter or not the Planaria regrew in addition to the period of time it took to reform."
+abstract: "The planaria is a remarkable invertabrate that has the ability to regenerate within a few days of being halved. Planaria are of key interest to biologists because their signaling pathways involved in development is highly similar to humans. The process by which the planaria are able to split and recreate vital appendages is hypothesized to be linked to calcium homeostasis. This lab exposes planaria to PZQ (Praziquantel) to further understand the planaria's re-formation process. The authors of this lab report were interested in exploring the impact of PZQ on the regeneration process of planaria, in addition to the period of time it took to reform. Within the experiment, it was discovered that there was a significant difference within treatment mediums; particularly, that exposure to PZQ itself would greatly impact the average time needed for planaria tails to reform eyespots and for planaria heads to reform their pharynx. Thus, it is learned that PZQ itself most likely has disruptive mechanisms that either block or even outright destroy the signaling pathways of planaria. In understanding the interaction that PZQ has with planaria regeneration, it is possible that biologists can build a stronger understanding of the chemical nuances involved with regeneration signaling."
 thanks: The authors are grateful to Katie Reichard for being our shepard. 
 ---
 
@@ -78,11 +78,8 @@ tails_data <- class_data %>%
 
 
 
-# Analysis
 
-The authors were interested in exploring the impact of 
-
-## PZQ Impact on Regrowth
+# PZQ Impact on Regrowth
 
 The null hypothesis for this section is the proportion of PZQ treated segments will regrow the same proportion as those in the control treatment. 
 
@@ -104,7 +101,7 @@ chi_tail <-chisq.test(tolower(tails_data$Treatment), tails_data$`New Eye spot ap
 ```
 
 
-Tail segments exposed to PZQ ($\frac{11}{66}$) are stastically significantly less likely to regrow than the control treatment ($\frac{57}{66}$) ($\chi^2$, $X^2=$ `r chi_tail$statistic`, $df=1$,  $p=$ `r chi_tail$p.value`)
+Tail segments exposed to PZQ ($\frac{11}{66}$) are statistically significantly less likely to regrow than the control treatment ($\frac{57}{66}$) ($\chi^2$, $X^2=$ `r chi_tail$statistic`, $df=1$,  $p=$ `r chi_tail$p.value`)
 
 
 ```{r}
@@ -113,43 +110,66 @@ class_data %>%
   ggplot(aes(x=Treatment, fill = regrowth)) +
   geom_bar() +
   facet_wrap(~segment) +
-  labs(title = "Regrowth by treatment and segment")
+  labs(title = "Regrowth by treatment and segment") +
+  scale_fill_discrete(name = "Specimen regrowth", labels=c("Did not Regrow", "Regrew"))
 
 ```
 
 
 
-## ANOVA Test
+# ANOVA Test
 
-The null hypothesis $p_{0}$ 
+The null hypothesis is that across groups planaria take the same number of days to regenerate. 
 
 ```{r}
 
 class_data %>%
-  ggplot(aes(x=Treatment, y = day_growth)) +
+  ggplot(aes(x=Treatment, y = day_growth, fill = Treatment)) +
   geom_boxplot() +
   geom_jitter(width = 0.15) +
   facet_wrap(~segment) +
-  labs(title = "Days before Regrowing", y = "Day first observed")
+  labs(title = "Days before regrowing missing segment", y = "Day first observed", caption = "Points represent individual Planaria") + 
+  theme(legend.position = "none")
   
 ```
 
-The mean number of days before regrowing a phayrnx/eye in the PZQ treatmant (`r mean(class_data$day_growth[class_data$Treatment=="pzq"], na.rm=T)`) is not statistically significantly longer than the control group (`r mean(class_data$day_growth[class_data$Treatment=="control"], na.rm=T)`). (Two-Way ANOVA, $F=2.0684$, $df=1$, $p=0.1064$) 
+The mean number of days before regrowing based on the segment was not statistically significantly longer for heads (`r mean(class_data$day_growth[class_data$segment=="head"], na.rm=T)`) than the tail group (`r mean(class_data$day_growth[class_data$segment=="tail"], na.rm=T)`). (Two-Way ANOVA, $df=1$, $\sum ^2=0.398005$, $f=0.1553$, $p=0.6943$) 
+
+
+The mean number of days before regrowing based on the treatment is statistically significantly longer in the PZQ group (`r mean(class_data$day_growth[class_data$Treatment=="pzq"], na.rm=T)`) than the control group (`r mean(class_data$day_growth[class_data$Treatment=="control"], na.rm=T)`). (Two-Way ANOVA, $df=1$, $\sum ^2=10.776460$, $f=4.2050$, $p=0.0428$) 
+
+
+There is no statistically significant interaction between treatment and segment in the PZQ group (head, PZQ `r mean(class_data$day_growth[class_data$Treatment=="pzq"][class_data$segment=="head"], na.rm=T)`; head, control `r mean(class_data$day_growth[class_data$Treatment=="control"][class_data$segment=="head"], na.rm=T)`; tail, PZQ `r mean(class_data$day_growth[class_data$Treatment=="pzq"][class_data$segment=="tail"], na.rm=T)`; head, control `r mean(class_data$day_growth[class_data$Treatment=="control"][class_data$segment=="tail"], na.rm=T)`). (Two-Way ANOVA, $df=1$, $\sum ^2=3.118567$, $f=1.2169$, $p=0.2725$).
+
 
 # Figures
 
-IN HERE!!!!
+
+![A split planaria with a head (top) and tail (bottom) segment](Images/split_planaria.jpg){height=40%}
 
 
+![A regenerating tail segment on day 4](Images/Regrowing_tail_day_4.jpeg){width=45%} ![A regenerating head segment on day 4](Images/Regrowing_head_day_4.jpeg){width=45%}
+
+
+The figures above are pictures of two regrowing segments taken on day 4. 
+
+On the left is a regenerating tail which is significantly longer than the head segment. Although it does not have fully reformed eyes, there is a rough outline that suggests that it is beginning to reform the core of its head.
+
+
+On the right is one of the sample head segments. The segment in this figure is currently in the early phases of its regeneration.
+
+
+![A disintegrated Planaria from the PZQ](Images/Disentigrated.jpg){width=80%}
+
+Above is a planaria segment from the PZQ treatment that disintegrated. There are no distinguishable planaria features that can be discerned from the image above. 
 
 
 
 # Author Contributions
 
-> Contribution statement: See contribution statement guidelines and write who did what- Bio Binder T-10; Section U for a good example, Section V for a bad example.
 
 
-All authors contributed equally to this project
+Connie Mangan performed analysis in `jmp`, Morgan LeMay dissected the planaria for lab, and Taylor Blair created graphics and formatted the document. All authors contributed equally to the write-up.
 
 The checking schedule was divided accordingly:
 
@@ -165,12 +185,22 @@ watch_schedule %>%
 
 # Grading
 
+*This section left empty for grader feedback.*
+
 ## Table
 
 | **Component** | **Excellent** |	**Good**	| **Satisfactory**	| **Incomplete/Needs Work** | 
 |---------------|---------------|-----------|-------------------|---------------------------|
 |Report organization |          |           |                   |                           |
-|Report organization |          |           |                   |                           |
+|Abstract: Background & Scientific Question |          |           |                   |                           |
+|Abstract: Methods & Results |          |           |                   |                           |
+|Abstract: Discussion  |          |           |                   |                           |
+|Figure/Graphs |          |           |                   |                           |
+|Figure Legend  |          |           |                   |                           |
+|Statistical Results |          |           |                   |                           |
+
+
+
 
 ## Other Comments
 
